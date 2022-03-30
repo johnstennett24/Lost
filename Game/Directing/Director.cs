@@ -24,7 +24,7 @@ namespace Lost.Game.Directing
 
         private void GetInputs()
         {
-            Raylib.InitWindow()
+            
         }
 
         private void Doupdates()
