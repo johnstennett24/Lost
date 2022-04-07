@@ -1,3 +1,5 @@
+using Lost.Game.Services;
+
 namespace Lost.Game.Casting
 {
     public class Body

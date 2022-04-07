@@ -5,7 +5,11 @@ namespace Lost
 {
     public class Program
     {
-        Director director = new Director();
-        director.StartGame();
+       static void Main(string[] args)
+       {
+           Director director = new Director();
+           director.StartGame();
+       }
+        
     }
 }
