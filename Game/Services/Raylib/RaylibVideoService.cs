@@ -1,8 +1,11 @@
+using System.Collections.Generic;
+using System.IO;
+using System.Numerics;
+using System.Runtime.CompilerServices;
 using Raylib_cs;
 using Lost.Game.Casting;
-using Lost.Game.Directing;
-using Lost.Game.Scripting;
-using Lost;
+using Lost.Game.Services;
+
 
 namespace Lost.Game.Services
 {
@@ -69,7 +72,6 @@ namespace Lost.Game.Services
             }
         }
 
-        /// </inheritdoc>
         public void DrawText(Casting.Text text, Casting.Point position)
         {
             string value = text.GetValue();
