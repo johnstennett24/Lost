@@ -6,6 +6,6 @@ namespace Lost
     public class Program
     {
         Director director = new Director();
-        director.StartGame();
+        director.StartGame()
     }
 }
